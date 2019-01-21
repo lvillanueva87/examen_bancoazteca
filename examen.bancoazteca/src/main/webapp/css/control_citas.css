@@ -1,0 +1,103 @@
+*{
+	padding : 0px;
+	margin : 0px;
+}
+
+#formCitas .gj-datepicker
+{
+	width : 320px;
+	display : inline-block;
+	text-align : center;
+}
+
+body
+{
+	background-color: #FFFFFF;
+}
+
+#divHeader
+{
+	text-align : center;
+}
+
+#divTable
+{
+	text-align : center;
+	margin-bottom : 30px;
+}
+
+#tablaCitas
+{
+	display : inline-block;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+#tablaCitas td, #tablaCitas th 
+{
+  border : 1px solid #ddd;
+  padding : 8px;
+}
+
+#tablaCitas tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+#tablaCitas tr:hover 
+{
+	background-color: #ddd;
+}
+
+#tablaCitas th
+{
+  padding-top : 12px;
+  padding-bottom : 12px;
+  text-align : left;
+  background-color : #4CAF50;
+  color : white;
+}
+
+#formCitas
+{
+	margin-bottom : 30px;
+}
+
+#formPacientes, #formCitas
+{
+	width : 100%;
+	text-align : center;
+}
+
+#formCitas select, #formCitas input
+{
+	margin-top : 10px;
+	width : 320px;
+	display : inline-block;
+}
+
+#formPacientes h3, #formCitas h3
+{
+	color : black;	
+}
+
+.div-form-control
+{
+	margin-top : 20px;
+}
+
+#pNombre, #sNombre, #pApellido, #sApellido
+{
+	width : 320px;
+	font-size : 12px;
+}
+
+#edad, #genero
+{
+	width : 148px;
+	font-size : 12px;
+}
+
+@media (max-width: 576px)
+{
+}
